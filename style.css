@@ -1,0 +1,588 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+
+*
+/* index style*/
+   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+   }
+
+ .body 
+     {
+      font-family: anton;
+      margin: 0;
+      padding: 0;
+      background-color:rgb(0, 225, 255);
+     }
+    
+
+  .site-header {
+            background-color: #e7cbe7;
+            padding: 30px 20px;
+        }
+
+        .main-nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 15px;
+        }
+
+        .main-nav ul li {
+            display: inline;
+        }
+
+        .main-nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+      .hero-banner 
+          {
+            background-image: url('images/background2.jpg'); 
+            background-size: cover;
+            background-position: center;
+            height: 550px;
+            display: flex;
+            align-items: center;        
+            justify-content: center;    
+            text-align: center;
+            font-size: 60px;
+            color: rgb(156, 90, 90);
+          }
+
+.banner-text {
+  display: inline-block;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #dd4bb1;
+  animation: fadeInUp 2s ease-out forwards;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+            background-color: white;
+            gap: 30px;
+            box-shadow: 0px 10px rgba(0,0,0,0.1)
+        }
+
+        .container img {
+            width: 300px;
+            border-radius: 10px;
+        }
+
+        .details {
+            max-width: 500px;
+        }
+
+        .details h1 {
+            font-size: 35px;
+            margin-bottom: 10px;
+        }
+
+        .details p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .skill-button {
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .description {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: justify;
+            font-size: 20px;
+            padding: 20px;
+            
+        }  
+/* index style*/
+/*about style*/
+          header.site-header {
+            background-color: #e7cbe7;
+            padding: 30px 0;
+        }
+
+        .main-nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .main-nav li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        .main-nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+            background-color: white;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .section img {
+            float: left;
+            margin-right: 20px;
+            width: 200px;
+            border-radius: 10px;
+        }
+
+        .section h2 {
+            color: #333;
+            margin-top: 0;
+        }
+
+        .section p {
+            color: #2986cc;
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        /* Clearfix for floated image */
+        .section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+  
+      /* about style */
+      /* education style*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fefefe;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.7;
+    color: #333;
+}
+
+/* Page heading */
+h1.page-title {
+    text-align: center;
+    font-size: 36px;
+    color: #2a2a2a;
+    margin-bottom: 40px;
+}
+
+/* Education section container */
+.education-section {
+    max-width: 900px;
+    margin: 0 auto 50px auto;
+    text-align: center;
+    
+}
+
+/* Education section logo image */
+.education-section img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+/* Education text paragraph */
+.education-section p {
+    font-size: 18px;
+    text-align: justify;
+    padding: 0 20px;
+    color: #444;
+}
+      /*education style*/
+
+      .main-nav ul
+          {
+            list-style: none;
+            display: flex;
+            gap:25px;
+          }
+
+      .main-nav a
+          {
+            color:darkslateblue;
+            font-family:poppins;
+            text-decoration: none;
+            font-weight: 600;
+          }   
+          
+      .main-nav a:hover
+          {
+            text-decoration: underline;
+          }  
+
+      .site-header
+          {
+            display: flex;
+            align-items: center;
+            padding: 30px 50px;
+            justify-content: space-between;
+            background-color:rgb(194, 123, 164); 
+          }
+
+      form label
+        {
+          display: block;
+          margin-top:  15px;
+          margin-bottom: 5px;
+          font-weight: bold;
+        }
+
+      form input, form select, form textarea
+      {
+        box-sizing: border-box;
+        border: 1 px solid #6e3a3a;
+        border-radius: 5px;
+        width: 100%;
+        padding: 10px;
+      }  
+
+      form button
+      {
+        margin-top: 30px;
+      }
+
+     body {
+            font-family: Arial, sans-serif;
+            line-height: 1.8;
+            background-color: #f7e6f7;
+            margin: 0;
+            padding: 0;
+            font-size: 18px; /* Set base font size */
+        }
+
+        .main-content {
+            max-width: 900px;
+            margin: auto;
+            padding: 30px;
+            background-color: white;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 40px;
+            font-size: 20px; /* Increased heading font size */
+        }
+
+         p {
+            text-align: center;
+            color: #333;
+            margin-bottom: 40px;
+            font-size: 20px; 
+         }
+        .education-section {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .education-section img {
+            width: 150px;
+            margin-bottom: 20px;
+        }
+
+        .education-section p {
+            color: #555;
+            font-size: 20px; /* Increased paragraph font size */
+            padding: 0 20px;
+            text-align: justify;
+        }
+
+        header.site-header {
+            padding: 15px 0;
+        }
+
+        nav.main-nav ul {
+            list-style: none;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav.main-nav li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav.main-nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px; /* Font size for nav links */
+        }
+        /* ========== GALLERY ========== */
+.body-gallery
+  {
+    background-color:#1bb198;
+  }
+#diaries {
+  background-color: #dbbfd9;
+  padding: 3rem 1rem;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#diaries h2 {
+  font-size: 2.2rem;
+  color: #a67856;
+  font-family: 'Georgia', serif;
+  margin-bottom: 1rem;
+}
+
+
+.diaries-intro {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 2.5rem;
+  font-style: italic;
+}
+
+.diaries-grid {
+  display: grid;
+  background-color: rgb(160, 140, 153);
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 2.5rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.diaries-card {
+  background-color: #ebd1eb;
+  padding: 1.5rem;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.diaries-card:hover {
+  transform: translateY(-5px);
+}
+
+.diaries-card img {
+  width: 100%;
+  height: auto;
+  max-height: 360px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+}
+
+.diaries-card p {
+  font-size: 1rem;
+  color: #444;
+  font-style: italic;
+  margin: 0;
+  line-height: 1.6;
+}
+
+
+
+#contact {
+  background-color: #1bb1a4;
+}
+
+.box1 
+{
+   background-color:rgb(232, 189, 252);
+   height: 600px;
+   width: 100%;
+   float: left;
+   padding: 30px;
+   font-size: 10pt         ;
+  }
+        
+  .form-container
+  {
+   margin: auto;
+   border-radius: 10px;
+  }   
+
+#contact h2 {
+ background-color:rgb(54, 4, 77);
+}
+.social-icon {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin: 0 10px;
+    
+}
+
+.contact-intro {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.contact-card {
+  background-color: #c75296;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+}
+
+.contact-card img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#diaries {
+  scroll-margin-top: 100px; /* Push down target anchor scroll */
+}
+
+
+.contact-card h3 {
+  color: #b57268;
+  margin-bottom: 0.3rem;
+}
+
+.contact-card p {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.5;
+}
+
+/* skills*/
+#skills {
+  background: #df90e2;
+  padding: 3rem 1rem;
+  text-align: center;
+  animation: fadeIn 1s ease-in;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #003366;
+  margin-bottom: 1rem;
+}
+
+.skills-intro {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  animation: slideUp 1.2s ease;
+}
+
+.skill-card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  font-size: 1rem;
+  transition: transform 0.3s, background-color 0.3s;
+  cursor: pointer;
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+  background-color: #d9efff;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Define the animation */
+@keyframes fadeSlideDown {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.experience-photo {
+  width: 100%;
+  height: 220px;
+  max-width: 320px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .experience-photo {
+    width: 90%;
+    max-width: 90%;
+    height: auto;
+  }
+}
+
+
+/* experience style*/
